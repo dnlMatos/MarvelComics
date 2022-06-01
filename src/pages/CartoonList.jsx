@@ -9,30 +9,27 @@ import {
   Text,
 } from "./style";
 import { useEffect, useState } from "react";
-import api from "../constants/connection";
 import imgMarvel from "../img/marvel-studios.jpg";
 import BasicModal from "../components/modal/modal";
 import { FadeLoader } from "react-spinners";
+import { cartoonList, detalhaCartoon } from "../constants/request";
 
 export const CartoonList = () => {
   const [loading, setLoading] = useState(true);
   const [comics, setComics] = useState([]);
 
   useEffect(() => {
-    cartoonList();
-    setLoading(false);
+    mostrarCartoon();
   }, []);
 
-  const cartoonList = () => {
-    try {
-     api
-        .get("/comics")
-        .then((resp) => setComics(resp.data.data.results))
-        .catch((resp) => console.log(resp));
-      console.log(comics);
-    } catch (error) {
-      throw new Error(error);
-    }
+  const mostrarCartoon = async () => {
+    const response = await cartoonList();
+    setComics(response);
+    setLoading(false);
+  };
+
+  const detalhesCartoon = async (idQuad) => {
+    await detalhaCartoon(idQuad).then(() => acionaToastify());
   };
 
   return (
