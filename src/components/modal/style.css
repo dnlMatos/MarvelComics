@@ -1,0 +1,12 @@
+.btn-detalhes {
+  color: rgba(62, 5, 5, 100%)!important;
+  border: 1px solid #3e0505!important;
+  transition: 300ms ease-in-out;
+}
+
+.btn-detalhes:hover {
+  border: 1px solid rgba(62, 5, 5, 100%)!important;
+  transition: 300ms ease-in-out;
+  transform: scale(1.04);
+  font-weight: bold;
+}

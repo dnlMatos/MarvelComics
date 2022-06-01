@@ -2,9 +2,18 @@ import styled from "styled-components";
 
 export const Header = styled.div`
   width: 100%;
-  height: 8%;
-  background: red;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  background: white;
+  align-items: center;
+  margin-bottom: 50px;
 `;
+
+export const IM = styled.img`
+  width: 300px;
+  height: 70px;
+`
 
 export const Container = styled.div`
   display: flex;
@@ -14,7 +23,6 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  cursor: pointer;
   background: rgba(255, 255, 255, 80%);
   padding: 5px 0;
   width: 20%;
@@ -25,11 +33,6 @@ export const Card = styled.div`
   border-radius: 8%;
   box-shadow: 5px 10px 8px #888888;
   text-align: center;
-  transition: 300ms ease-in-out;
-  :hover {
-    transition: 300ms ease-in-out;
-    transform: scale(1.04);
-  }
 `;
 
 export const CardImg = styled.div`
@@ -51,4 +54,12 @@ export const Text = styled.div`
   padding: 10px 0;
   background: rgba(62, 5, 5, 100%);
   color: white;
+`;
+
+export const Spinner = styled.div`
+  width: 94%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
