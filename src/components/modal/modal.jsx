@@ -4,9 +4,6 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { useEffect, useState } from "react";
-
-import api from '../../constants/connection';
 
 const style = {
   position: 'absolute',
@@ -27,7 +24,7 @@ export default function BasicModal() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
+    <div >
       <Button variant='outlined' className="btn-detalhes" onClick={handleOpen}>Mais detalhes</Button>
       <Modal
         open={open}

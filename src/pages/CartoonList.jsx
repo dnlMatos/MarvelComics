@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 import imgMarvel from "../img/marvel-studios.jpg";
 import BasicModal from "../components/modal/modal";
 import { FadeLoader } from "react-spinners";
-import { cartoonList, detalhaCartoon } from "../constants/request";
+import { cartoonList } from "../constants/request";
 
 export const CartoonList = () => {
   const [loading, setLoading] = useState(true);
@@ -24,12 +24,9 @@ export const CartoonList = () => {
 
   const mostrarCartoon = async () => {
     const response = await cartoonList();
-    setComics(response);
+    setComics(response.data.results);
+    console.log(response.data.results);
     setLoading(false);
-  };
-
-  const detalhesCartoon = async (idQuad) => {
-    await detalhaCartoon(idQuad).then(() => acionaToastify());
   };
 
   return (
