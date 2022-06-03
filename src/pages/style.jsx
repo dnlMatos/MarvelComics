@@ -4,15 +4,26 @@ export const Header = styled.div`
   width: 100%;
   padding: 10px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background: white;
   align-items: center;
   margin-bottom: 50px;
 `;
 
+export const Search = styled.div`
+  display: block;
+  padding: 5px;
+`
+
+export const Input = styled.input`
+  padding: 5px;
+`
+
 export const IM = styled.img`
   width: 300px;
   height: 70px;
+  margin-bottom: 20px;
 `
 
 export const Container = styled.div`
@@ -63,3 +74,4 @@ export const Spinner = styled.div`
   align-items: center;
   justify-content: center;
 `;
+

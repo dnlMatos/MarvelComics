@@ -7,6 +7,8 @@ import {
   IM,
   Img,
   Text,
+  Search,
+  Input,
 } from "./style";
 import "../components/modal/style.css"
 import * as React from 'react';
@@ -40,6 +42,7 @@ export const CartoonList = () => {
         <>
           <Header>
             <IM src={imgMarvel} />
+          <Search><Input placeholder="Buscar por" /></Search>
           </Header>
           {comics.map((char) => {
             return (
@@ -53,7 +56,7 @@ export const CartoonList = () => {
                 <Text>
                   <span className="name">{char.series.name}</span>
                 </Text>
-                <BasicModal id={char.id}/>
+                <BasicModal id={char.id} />
               </Card>
             );
           })}
