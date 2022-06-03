@@ -15,6 +15,6 @@ export const cartoonList = async () => {
         const { data } = await api.get("/comics")
         return data;
     } catch (error) {
-        throw new Error(error);
+        alert(`A API entrou no limite de requisições \n${error}`);
     }
 };
