@@ -1,0 +1,45 @@
+.img-cart {
+  height: 100%;
+}
+
+.cont-img {
+  width: auto;
+  height: 390px;
+}
+
+@media (max-width: 576px) {
+  .cont-img {
+    width: 399px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .cont-img {
+    width: auto;
+    height: 202px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cont-img {
+    width: 202px;
+    height: 306px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cont-img {
+    width: 247px;
+    height: 375px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cont-img {
+    width: 310px;
+    height: 461px;
+  }
+}
+
+

@@ -1,40 +1,39 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-  width: 100%;
-  padding: 10px 0;
+  /* width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: white;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 50px; */
+  background: white;
 `;
 
 export const Search = styled.div`
-  display: block;
-  padding: 5px;
+  /* display: block; */
 `
 
 export const Input = styled.input`
-  padding: 5px;
+  /* padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px; */
 `
 
 export const IM = styled.img`
-  width: 300px;
-  height: 70px;
-  margin-bottom: 20px;
+  /* width: 60%;
+  margin-bottom: 20px; */
 `
 
 export const Container = styled.div`
-  display: flex;
+  /* display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 30px; */
 `;
 
 export const Card = styled.div`
-  background: rgba(255, 255, 255, 80%);
+  /* background: rgba(255, 255, 255, 80%);
   padding: 5px 0;
   width: 20%;
   display: flex;
@@ -43,28 +42,28 @@ export const Card = styled.div`
   justify-content: space-evenly;
   border-radius: 8%;
   box-shadow: 5px 10px 8px #888888;
-  text-align: center;
+  text-align: center; */
 `;
 
 export const CardImg = styled.div`
-  max-width: 85%;
+  /* max-width: 85%;
   height: 70%;
   overflow: hidden;
   border-radius: 8%;
   box-shadow: 5px 10px 8px #888888;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;  */
 `;
 
 export const Img = styled.img`
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 `;
 
 export const Text = styled.div`
-  width: 100%;
+  /* width: 100%;
   padding: 10px 0;
   background: rgba(62, 5, 5, 100%);
-  color: white;
+  color: white; */
 `;
 
 export const Spinner = styled.div`
