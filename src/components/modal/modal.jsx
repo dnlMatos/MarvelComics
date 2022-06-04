@@ -33,7 +33,6 @@ export default function BasicModal(props) {
     handleOpen();
     const resp = await detalhaCartoon(idQuad);
     setComic(resp.data.results);
-    console.log(resp.data.results);
   };
 
   return (
@@ -59,9 +58,11 @@ export default function BasicModal(props) {
                   Nome: {resp.title}
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                  {resp.description
-                    ? resp.description
-                    : "Quadrinho sem descrição"}
+                  {resp.description ? (
+                    <div className="text-justify">{resp.description}</div>
+                  ) : (
+                    "Quadrinho sem descrição"
+                  )}
                 </Typography>
               </Box>
             </Modal>
