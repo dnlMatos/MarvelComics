@@ -27,6 +27,7 @@
 - [Bootstrap](https://https://getbootstrap.com)
 - [Spinners](https://www.davidhu.io/react-spinners/)
 - [Surge](https://surge.sh/)
+- [Material UI](https://https://mui.com/)
 
 
 ### ✔️ Gostou e quer testar? (Link Surge)
@@ -39,6 +40,9 @@
 - [x] A API da marvel possui uma limitação de acesso. Várias requisições acabam restrigindo o seu uso. Portanto, caso surja um alerta ao acessar o site, aguarde algumas horas e tente novamente.
 
 
-### Layout (Imagens)
+### Layout 
+
+https://user-images.githubusercontent.com/60492862/172050157-b2f5c03b-26f4-45d5-ad7c-6a596526bdef.mp4
+
 
 por Danilo Matos
