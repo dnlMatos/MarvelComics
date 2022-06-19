@@ -37,7 +37,7 @@
 
 ### ❌ Não conseguiu acesso?
 
-- [x] A API da marvel possui uma limitação de acesso. Várias requisições acabam restrigindo o seu uso. Portanto, caso surja um alerta ao acessar o site, aguarde algumas horas e tente novamente.
+- [x] A API POSSUI RESTRIÇÕES QUANTO A EXCLUSÃO E INSERÇÃO. NÃO É POSSIVEL ADICIONAR OU REMOVER POSTS, PORÉM OS ENDPOINTS FORAM IMPLEMENTADOS E SATISFAZEM AS EXIGIDAS NA DOCUMENTAÇÃO.
 
 
 ### Layout 
@@ -46,3 +46,4 @@ https://user-images.githubusercontent.com/60492862/172050157-b2f5c03b-26f4-45d5-
 
 
 por Danilo Matos
+backgroung: freepik.com
