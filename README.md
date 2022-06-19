@@ -35,10 +35,6 @@
 [Ir ao site](http://craven-kitty.surge.sh/)
 
 
-### ❌ Não conseguiu acesso?
-
-- [x] A API POSSUI RESTRIÇÕES QUANTO A EXCLUSÃO E INSERÇÃO. NÃO É POSSIVEL ADICIONAR OU REMOVER POSTS, PORÉM OS ENDPOINTS FORAM IMPLEMENTADOS E SATISFAZEM AS EXIGIDAS NA DOCUMENTAÇÃO.
-
 
 ### Layout 
 
@@ -46,4 +42,4 @@ https://user-images.githubusercontent.com/60492862/172050157-b2f5c03b-26f4-45d5-
 
 
 por Danilo Matos
-backgroung: freepik.com
+
